@@ -81,7 +81,16 @@
         </div>
       
         <div id="camposCelular" style="display:none;">
+        
           <div class="form-group">
+            <label for="name">Modelo</label>
+            <input type="text" name="" id="marca" class="form-control" placeholder="" aria-describedby="helpId">
+         </div>
+         <div class="form-group">
+            <label for="marca">Marca</label>
+            <input type="text" name="" id="marca" class="form-control" placeholder="" aria-describedby="helpId">
+         </div>
+         <div class="form-group">
             <label for="cpu">CPU:</label>
             <input type="text" class="form-control" id="cpu" name="cpu" placeholder="Ejemplo: Snapdragon 8 Gen 2">
           </div>
@@ -90,7 +99,7 @@
             <input type="text" class="form-control" id="gpu" name="gpu" placeholder="Ejemplo: Adreno 740">
           </div>
           <div class="form-group">
-            <label for="pantalla">Pantalla:</label>
+            <label for="pantalla">tipo de Pantalla:</label>
             <input type="text" class="form-control" id="pantalla" name="pantalla" placeholder="Ejemplo: AMOLED, 6.7 pulgadas">
           </div>
           <div class="form-group">
@@ -104,19 +113,39 @@
         </div>
       
         <div id="camposTeclado" style="display:none;">
-            
             <div class="form-group">
+                <label for="name">Modelo</label>
+                <input type="text" name="" id="marca" class="form-control" placeholder="" aria-describedby="helpId">
+             </div>
+             <div class="form-group">
+                <label for="marca">Marca</label>
+                <input type="text" name="" id="marca" class="form-control" placeholder="" aria-describedby="helpId">
+             </div>  <div class="form-group">
             <label for="tipoSwitch">Tipo de switches:</label>
             <input type="text" class="form-control" id="tipoSwitch" name="tipoSwitch" placeholder="Ejemplo: Mecánico, Cherry MX Red">
           </div>
           <div class="form-group">
-            <label for="mecanismo">Mecanismo:</label>
-            <input type="text" class="form-control" id="mecanismo" name="mecanismo" placeholder="Ejemplo: Membrana, Mecánico">
+            <label for="tipoTeclado">Tipo de teclado:</label>
+            <select class="form-control" id="tipoTeclado" name="tipoTeclado">
+              <option value="">Seleccione el tipo de teclado...</option>
+              <option value="membrana">Membrana</option>
+              <option value="mecanico">Mecánico</option>
+              <option value="mecanico-hibrido">Mecánico híbrido</option>
+            </select>
           </div>
+          
         </div>
       
         <div id="camposMouse" style="display:none;">
-          <div class="form-group">
+            <div class="form-group">
+                <label for="name">Modelo</label>
+                <input type="text" name="" id="marca" class="form-control" placeholder="" aria-describedby="helpId">
+             </div>
+             <div class="form-group">
+                <label for="marca">Marca</label>
+                <input type="text" name="" id="marca" class="form-control" placeholder="" aria-describedby="helpId">
+             </div>
+            <div class="form-group">
             <label for="sensor">Sensor:</label>
             <input type="text" class="form-control" id="sensor" name="sensor" placeholder="Ejemplo: Óptico, Hero 25K">
           </div>
