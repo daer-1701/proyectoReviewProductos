@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 /*!
+=======
+>>>>>>> 77da8de (Limpieza de codigo)
  * OverlayScrollbars
  * https://github.com/KingSora/OverlayScrollbars
  *

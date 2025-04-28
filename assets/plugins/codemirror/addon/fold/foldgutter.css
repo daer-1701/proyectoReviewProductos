@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .CodeMirror-foldmarker {
   color: blue;
   text-shadow: #b9f 1px 1px 2px, #b9f -1px -1px 2px, #b9f 1px -1px 2px, #b9f -1px 1px 2px;
@@ -18,3 +19,6 @@
 .CodeMirror-foldgutter-folded:after {
   content: "\25B8";
 }
+=======
+.CodeMirror-foldmarker { color: blue; text-shadow: #b9f 1px 1px 2px, #b9f -1px -1px 2px, #b9f 1px -1px 2px, #b9f -1px 1px 2px; font-family: arial; line-height: .3; cursor: pointer; } .CodeMirror-foldgutter { width: .7em; } .CodeMirror-foldgutter-open, .CodeMirror-foldgutter-folded { cursor: pointer; } .CodeMirror-foldgutter-open:after { content: "\25BE"; } .CodeMirror-foldgutter-folded:after { content: "\25B8"; }
+>>>>>>> 77da8de (Limpieza de codigo)

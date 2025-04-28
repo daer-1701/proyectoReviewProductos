@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 /*!@preserve
+=======
+>>>>>>> 77da8de (Limpieza de codigo)
  * Tempus Dominus Bootstrap4 v5.39.0 (https://tempusdominus.github.io/bootstrap-4/)
  * Copyright 2016-2020 Jonathan Peterson and contributors
  * Licensed under MIT (https://github.com/tempusdominus/bootstrap-3/blob/master/LICENSE)

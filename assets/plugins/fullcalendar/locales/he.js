@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 FullCalendar.globalLocales.push(function () {
   'use strict';
 
@@ -22,3 +23,6 @@ FullCalendar.globalLocales.push(function () {
   return he;
 
 }());
+=======
+FullCalendar.globalLocales.push(function () { 'use strict'; var he = { code: 'he', direction: 'rtl', buttonText: { prev: 'הקודם', next: 'הבא', today: 'היום', month: 'חודש', week: 'שבוע', day: 'יום', list: 'סדר יום', }, allDayText: 'כל היום', moreLinkText: 'אחר', noEventsText: 'אין אירועים להצגה', weekText: 'שבוע', }; return he; }());
+>>>>>>> 77da8de (Limpieza de codigo)
